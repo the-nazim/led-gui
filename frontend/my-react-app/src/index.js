@@ -27,10 +27,10 @@ root.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<Home />} /> */}
         {/* <Route path="/home" element={<App />} /> */}
-        <Route path='/Color' element={<Color />} />
-        <Route path="/signup" element={<Registration />} />
+        <Route path='/' element={<Color />} />
+        {/* <Route path="/signup" element={<Registration />} /> */}
       </Routes>
     </Router>
   </React.StrictMode>
